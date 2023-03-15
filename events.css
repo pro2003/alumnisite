@@ -150,39 +150,32 @@ body {
     align-items: flex-start;
     grid-template-columns: repeat(4, 1fr);
 }
-
 .f-brand {
     font-size: 2rem;
     font-weight: 600;
     color: #fff;
 }
-
 .info {
     color: #6c757d;
     font-weight: 300;
     width: 80%;
 }
-
 .info div {
     color: #aeb2b8;
     font-size: 1.5rem;
 }
-
 a:hover {
     text-decoration: none;
     color: #ff0b23;
 }
-
 footer h2 {
     font-size: 1.5rem;
     font-weight: 600;
 }
-
 footer a {
     color: #fff;
     text-decoration: none;
 }
-
 .f-content a {
     display: block;
     line-height: 2;
@@ -190,7 +183,6 @@ footer a {
     font-size: 0.96rem;
     margin-left: 0.2rem;
 }
-
 .f-links {
     display: flex;
     flex-direction: column;
@@ -209,7 +201,6 @@ footer a {
     align-items: center;
     justify-content: center;
 }
-
 .f-copyright p {
     margin: 0;
 } */
@@ -222,7 +213,6 @@ footer a {
         border-right-color: rgba(255, 255, 255, 0);
     }
 }
-
 @media (max-width: 320px) {
     .lead {
         margin-top: 60%;
@@ -243,7 +233,6 @@ footer a {
         margin-left: 50%;
     }
 }
-
 @media (min-width: 321px) and (max-width: 449px) {
     .lead {
         margin-top: 50%;
@@ -256,25 +245,21 @@ footer a {
         margin-left: 20%;
     }
 }
-
 @media (min-width: 449px) and (max-width: 750px) {
     #header {
         width: 100%;
     }
 }
-
 @media (min-width: 760px) {
     #header {
         width: 100%;
     }
 }
-
 @media (min-width: 800px) and (max-width: 1440px) {
     #header {
         width: 100%;
     }
 }
-
 @media only screen and (max-width: 600px) {
     .display-3 {
         font-size: 4rem;
@@ -286,7 +271,6 @@ footer a {
         padding-left: 3px;
     }
 }
-
 @media only screen and (min-width: 992px) {
     #header {
         height: calc(100vh - 4.45rem - 15px);
@@ -295,7 +279,6 @@ footer a {
         top: calc(4.45rem + 15px);
     }
 }
-
 @media only screen and (max-width: 992px) {
     .production {
         display: none;
@@ -306,8 +289,6 @@ footer a {
         justify-content: center;
     }
 }
-
-
 /* Styles for if the screen is taller than it is wide (assumed mobile view) */
 /* 
 @media screen and (max-aspect-ratio: 8/7) {
@@ -315,7 +296,6 @@ footer a {
         font-size: 6rem;
     }
 }
-
 .card-title {
     font-weight: 600;
     color: #94000f;
@@ -406,7 +386,7 @@ footer a {
 .hero-container {
     background-image: linear-gradient(45deg,
             rgba(245, 70, 66, 0.75),
-            rgba(8, 83, 156, 0.75)), url('https://assets.stanford.edu/i/2000x0/filters:quality(60)/f/103430/3500x2335/551d552bc3/20211228winter_closure_slidshow_sra8683.jpg');
+            rgba(8, 83, 156, 0.75)), url('main building.jpg');
     ;
     height: 100vh;
     width: 100%;
