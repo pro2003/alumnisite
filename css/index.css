@@ -404,7 +404,7 @@ footer a {
 }
 
 .hero-container {
-    background-image:  url('main building.JPG');
+    background-image:url("main building.JPG");
     height: 100vh;
     width: 100%;
     background-position: center;
