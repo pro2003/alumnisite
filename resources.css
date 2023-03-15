@@ -1,46 +1,137 @@
-header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 20px;
-	background-color: #f2f2f2;
+html {
+    scroll-behavior: smooth;
 }
 
+body {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+head {
+    color: #dddddd;
+}
+
+title {
+    color: #dddddd;
+}
+
+#header {
+    background: url(https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1159&q=80);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: calc(100vh - 4.45rem);
+}
+
+
+
+
+
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.navbar::before {
+    content: "";
+    background: url('../pic.webp') no-repeat center center/cover;
+    position: absolute;
+    height: 589px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+
+.navbar~* {
+    position: relative;
+    top: 4.45rem;
+}
+
+.navTitle {
+    color: #ffffff;
+    padding-left: 50px;
+    size: 50px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 nav li {
-	margin-right: 20px;
+    margin-right: 20px;
 }
 
 nav a {
-	color: #333;
-	text-decoration: none;
+    color: #333;
+    text-decoration: none;
 }
 
 .logo img {
-	max-height: 50px;
+    max-height: 50px;
 }
 
 html {
     position: relative;
     min-height: 100%;
-  }
-  
-  body {
+}
+
+body {
     margin: 0;
-    padding-bottom: 100px; 
-  }
-  
- 
-  main {
+    padding-bottom: 100px;
+}
+
+main {
     /* Add padding to the bottom of the main content area */
     padding-bottom: 50px;
-  }
+}
+
+
+
+
+body {
+    font-family: 'Segoe UI', 'San Francisco', Calibri, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+    /* Footer height */
+}
+
+
   
  footer {
     background: #000;
