@@ -24,11 +24,6 @@ title {
     width: auto;
     height: calc(100vh - 4.45rem);
 }
-
-
-
-
-
 .navbar {
     background-color: black;
     color: white;
@@ -58,19 +53,6 @@ title {
     size: 50px;
     font-weight: 600;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 nav ul {
     list-style: none;
@@ -103,12 +85,8 @@ body {
 }
 
 main {
-    /* Add padding to the bottom of the main content area */
     padding-bottom: 50px;
 }
-
-
-
 
 body {
     font-family: 'Segoe UI', 'San Francisco', Calibri, Helvetica, Arial, sans-serif;
@@ -119,7 +97,6 @@ body {
     align-items: center;
     min-height: 100vh;
 }
-
 
 #page-container {
     position: relative;
@@ -136,6 +113,8 @@ footer {
     color: rgb(150, 150, 150);
     padding: 1rem 0;
     margin: unset;
+    position:fixed;
+    bottom:0;
 }
 
 .footer-items{
