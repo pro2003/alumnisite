@@ -414,7 +414,7 @@ footer a {
 .hero-container {
     background-image: linear-gradient(45deg,
             rgba(245, 70, 66, 0.75),
-            rgba(8, 83, 156, 0.75)), url('main building.JPG');
+            rgba(8, 83, 156, 0.75)), url('../main building.JPG');
     ;
     height: 100vh;
     width: 100%;
