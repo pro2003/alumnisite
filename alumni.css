@@ -60,11 +60,11 @@ title {
 .nano{
     display:flex;
 }
-.alimni-corner{
+.alimni-corner  p{
     border:2px solid black;
 }
 
-.reunion{
+.reunion p{
     border:2px solid black;
 }
 
