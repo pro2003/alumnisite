@@ -57,12 +57,14 @@ title {
     size: 50px;
     font-weight: 600;
 }
-
-.alimni-corner p{
+.nano{
+    display:flex;
+}
+.alimni-corner{
     border:2px solid black;
 }
 
-.reunion p{
+.reunion{
     border:2px solid black;
 }
 
