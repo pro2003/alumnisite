@@ -517,7 +517,7 @@ footer a {
     color: #575757;
 }
 
-footer {
+.footer {
     background: #000;
     color: rgb(150, 150, 150);
     padding: 1rem 0;
