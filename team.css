@@ -179,7 +179,7 @@ body{
     /* Footer height */
 }
 
-footer {
+.footer {
     background: #000;
     color: rgb(150, 150, 150);
     padding: 1rem 0;
